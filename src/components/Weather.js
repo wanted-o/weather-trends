@@ -114,7 +114,6 @@ class Weather extends Component {
       case '3':
       case '4':
       case '5':
-        return Spring;
       case '6':
       case '7':
       case '8':
@@ -122,7 +121,7 @@ class Weather extends Component {
       case '9':
       case '10':
       case '11':
-        return Autumn;
+        return Rain;
       default:
         return Rain;
     }
